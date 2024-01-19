@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <Company>Mohaymen</Company>
+        <Version>1.0.0</Version>
+        <LangVersion>latest</LangVersion>
+        <PackageId>TaxCollector</PackageId>
+        <Authors>Kasra Soleymani</Authors>
+        <Description>This library is a wrapper over Tax.gov.ir in order to help .Net developers to connect easily
+            it a fork of itamedia.ir library with lots of bug fixes and improvements
+        </Description>
+        <PackageProjectUrl>https://github.com/siolishe/TaxCollector</PackageProjectUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.VisualStudio.Threading" Version="17.8.14"/>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
+        <PackageReference Include="Portable.BouncyCastle" Version="1.9.0"/>
+        <PackageReference Include="Pkcs11Interop" Version="5.1.2"/>
+        <PackageReference Include="RestSharp" Version="110.2.0"/>
+        <PackageReference Include="System.Net.Http.Json" Version="8.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0"/>
+        <PackageReference Include="jose-jwt" Version="4.1.0"/>
+        <PackageReference Include="JWT" Version="10.1.1"/>
+        <PackageReference Include="System.Security.Cryptography.X509Certificates" Version="4.3.2"/>
+        <PackageReference Include="Pkcs11Interop.X509Store" Version="0.4.0"/>
+    </ItemGroup>
+
+
+</Project>
