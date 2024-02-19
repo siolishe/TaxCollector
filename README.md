@@ -6,7 +6,7 @@
 ### InquiryByTime
 این متد برای دریافت وضعیت فاکتورهای ارسال شده در یک بازه زمانی (حداکثر ۵ روزه ) استفاده می شود
 مدل درخواست ارسالی به شکل زیر است :
-#####InquiryByTimeRangeDto
+##### InquiryByTimeRangeDto
 ```
     public DateTime Start { get; } // ابتدای بازه زمانی از ساعت 00:00:00 تاریخ ورودی
     public DateTime? End { get; } // انتهای بازه زمانی تا ساعت 12:59:59 تاریخ ورودی
